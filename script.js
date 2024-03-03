@@ -6,4 +6,6 @@ window.onload = () => {
   const getWindowURL = () => {
     return window.location.href;
   };
+
+  display.innerHTML = getWindowURL();
 };
